@@ -1,8 +1,6 @@
 docker run -it --name serviceserver --net elasticnet --ip 10.0.0.5 -p 5000:5000 -v C:\Dev\hatenetworkservice:/home/hateservice node bash
 
 su
-https://docs.mongodb.com/manual/reference/operator/query/
-https://docs.mongodb.com/manual/reference/operator/aggregation/match/
 
 npm install mongoose --save
 

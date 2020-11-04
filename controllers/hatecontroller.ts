@@ -72,7 +72,7 @@ export class HateController {
                 });
 
                 quantity--;
-            };
+            }
         }
         catch(e)
         {

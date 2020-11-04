@@ -22,7 +22,7 @@ class App {
     private routes(): void {
         this.express.use('/api', Routes);
 
-        this.express.use('*', (req,res,next) => {
+        this.express.use('*', (req,res) => {
             res.send("Request invalido");
         });
     }
